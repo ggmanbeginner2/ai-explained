@@ -5,6 +5,10 @@ body {
     background-attachment: fixed;
 }
 
+.z_myindex {
+z-index: 9999999;
+}
+    
 
 h1 {
     text-align: center;
@@ -126,4 +130,5 @@ nav a:hover {
     cursor: pointer;
 
 }
+
 
