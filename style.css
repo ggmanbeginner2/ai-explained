@@ -6,7 +6,7 @@ body {
 }
 
 .z_myindex {
-z-index: 9999999;
+z-index: 9;
 }
     
 
@@ -130,5 +130,6 @@ nav a:hover {
     cursor: pointer;
 
 }
+
 
 
