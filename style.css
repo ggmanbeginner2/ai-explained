@@ -5,10 +5,6 @@ body {
     background-attachment: fixed;
 }
 
-.z_myindex {
-z-index: 9;
-}
-    
 
 h1 {
     text-align: center;
@@ -30,11 +26,15 @@ p {
     margin-top: -1%;
 }
 
+.index-z {
+    z-index: 222;
+}
+
 .home_page_imgs {
     width: 100%;
     text-align: center;
     animation: fadein 2s ease-in forwards;
-    z-index: 999;
+    z-index: 2221;
 }
 
 @keyframes fadein {
@@ -130,6 +130,7 @@ nav a:hover {
     cursor: pointer;
 
 }
+
 
 
 
