@@ -28,6 +28,7 @@ p {
 
 .index-z {
     z-index: 222;
+    position: absolute;
 }
 
 .home_page_imgs {
@@ -130,6 +131,7 @@ nav a:hover {
     cursor: pointer;
 
 }
+
 
 
 
