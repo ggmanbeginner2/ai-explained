@@ -70,6 +70,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: wheat;
+    z-index:9999;
 }
 
 nav a:hover {
@@ -122,4 +123,5 @@ nav a:hover {
     height: 2.5%;
     vertical-align: middle;
     cursor: pointer;
+
 }
