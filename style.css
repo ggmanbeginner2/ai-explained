@@ -1,0 +1,125 @@
+body {
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+
+}
+
+h3 {
+    text-align: start;
+    margin-bottom: 2%;
+}
+
+p {
+    margin-top: -1%;
+}
+
+.home_page_imgs {
+    width: 100%;
+    text-align: center;
+    animation: fadein 2s ease-in forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        ;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+nav {
+    background-color: transparent;
+    padding: 1% 2%;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+nav li {
+    margin-right: 2%;
+    font-size: 150%;
+    z-index: 9999;
+}
+
+nav a {
+    text-decoration: none;
+    color: wheat;
+}
+
+nav a:hover {
+    background-color: rgba(230, 230, 6, 0.352);
+    color: rgb(0, 0, 0);
+    border-radius: 20%;
+}
+
+.ai_list {
+    text-align: center;
+
+}
+
+.ai_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.ai_list li {
+    padding: 0.5% 0;
+}
+
+.ai_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.ai_list h2 {
+    text-align: center;
+}
+
+.container4 {
+    text-align: center;
+    margin-top: auto;
+    text-decoration: none;
+}
+
+
+.footer {
+    color: aqua;
+    padding: 1.5rem 0;
+    text-align: center;
+
+}
+
+
+.icon {
+    width: 2.5%;
+    height: 2.5%;
+    vertical-align: middle;
+    cursor: pointer;
+}
