@@ -30,6 +30,7 @@ p {
     width: 100%;
     text-align: center;
     animation: fadein 2s ease-in forwards;
+    z-index: 999;
 }
 
 @keyframes fadein {
@@ -125,3 +126,4 @@ nav a:hover {
     cursor: pointer;
 
 }
+
